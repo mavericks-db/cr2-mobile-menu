@@ -1,0 +1,61 @@
+@import './main.css';
+
+.modalContainer {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #3c3a39;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 3rem;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  z-index: 1;
+}
+
+.modalContainer li {
+  font-family: "Inter", sans-serif;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 2.75rem;
+  border-bottom: 1px solid #6f6c6b;
+  text-align: left;
+}
+
+.links.first {
+  margin-top: 3rem;
+}
+
+.links {
+  color: #fff5e1;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  display: block;
+  transition-duration: 300ms;
+}
+
+.links:hover {
+  background-color: #1c1a19;
+  transform: scale(1.1);
+}
+
+.closeBtn {
+  float: right;
+  padding: 0.25rem;
+}
+
+.closeBtn:hover path,
+.closeBtn:focus path {
+  fill: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu svg:hover path {
+  fill: #ff6b00;
+  cursor: pointer;
+}
