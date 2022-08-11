@@ -18,4 +18,4 @@ window.onclick = function global(event) {
   }
 };
 
-closeBtn.addEventListener('click', closeModal);
+closeBtn.addEventListener('click', closeModal());
